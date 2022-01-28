@@ -9,7 +9,7 @@ class Producto{
     public function __construct(int $id,string $nombre, int $unidades, float $precio){
         $this->id=$id;
         $this->nombre=$nombre;
-        $this->uniades=$unidades;
+        $this->unidades=$unidades;
         $this->precio=$precio;
     }
 
@@ -19,7 +19,7 @@ class Producto{
     public function setNombre(string $nombre):void{
         $this->nombre=$nombre;
     }
-    public function setPedidos(int $unidades):void{
+    public function setUnidades(int $unidades):void{
         $this->unidades=$unidades;
     }
     public function setPrecio(float $precio):void{
