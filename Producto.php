@@ -43,8 +43,8 @@ class Producto{
         return $this->iva;
     }
 
-    public function total(int $unidades, float $precio, float $iva):float{
+    public function total():float{
     $total = $this->unidades*$this->precio*$this->iva;
-    echo "El total es " .$total;
+    return $total;
     }
 }
