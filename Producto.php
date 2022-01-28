@@ -39,6 +39,9 @@ class Producto{
     public function getPrecio():float{
         return $this->precio;
     }
+    public function getIva():float{
+        return $this->iva;
+    }
 
     public function total(int $unidades, float $precio, float $iva):float{
     $total = $this->unidades*$this->precio*$this->iva;
