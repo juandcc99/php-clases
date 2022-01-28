@@ -4,7 +4,7 @@ class Producto{
     private string $nombre;
     private int $unidades;
     private float $precio;
-    private float $iva=0.21;
+    private float $iva=1.21;
 
     public function __construct(int $id,string $nombre, int $unidades, float $precio){
         $this->id=$id;
